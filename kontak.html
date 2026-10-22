@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hubungi Ruang Rona atau daftarkan diri untuk mendapatkan kabar terbaru dari toko kami.">
+  <meta name="keywords" content="kontak, pendaftaran, pelanggan, Ruang Rona">
+  <meta name="author" content="Ruang Rona">
+  <title>Kontak & Pendaftaran | Ruang Rona</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ruang Rona, halaman utama"><span class="brand-mark">R</span>ruang<span>rona</span></a>
+    <nav class="main-nav" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="produk.html">Produk</a><a href="index.html#tentang">Tentang</a><a class="active" href="kontak.html">Kontak</a></nav>
+    <a class="nav-cta" href="produk.html">Lihat produk <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="contact-layout">
+    <aside class="contact-aside"><p class="eyebrow">Kami senang mendengarmu</p><h1>Mari mulai<br><em>percakapan.</em></h1><p>Ada pertanyaan tentang produk atau ingin bergabung dengan kabar Ruang Rona? Tinggalkan pesan, kami akan menghubungimu.</p><div class="contact-detail"><span>Email</span><a href="mailto:halo@ruangrona.example">halo@ruangrona.example</a></div><div class="contact-detail"><span>Jam layanan</span><strong>Senin–Jumat, 09.00–17.00 WIB</strong></div><div class="aside-mark" aria-hidden="true">RR.</div></aside>
+    <section class="form-panel" aria-labelledby="form-title"><div class="form-heading"><p class="eyebrow">Formulir pelanggan</p><h2 id="form-title">Ceritakan sedikit tentang dirimu.</h2><p>Kolom bertanda <span aria-hidden="true">*</span> wajib diisi.</p></div>
+      <form action="#" method="POST">
+        <fieldset><legend>Informasi pribadi</legend>
+          <div class="form-grid">
+            <div class="field"><label for="nama">Nama lengkap <span>*</span></label><input type="text" id="nama" name="nama" autocomplete="name" placeholder="Nama sesuai identitas" required></div>
+            <div class="field"><label for="email">Alamat email <span>*</span></label><input type="email" id="email" name="email" autocomplete="email" placeholder="nama@email.com" required></div>
+            <div class="field"><label for="telepon">Nomor telepon</label><input type="tel" id="telepon" name="telepon" autocomplete="tel" placeholder="08xxxxxxxxxx"></div>
+            <div class="field"><label for="password">Buat password</label><input type="password" id="password" name="password" minlength="8" autocomplete="new-password" placeholder="Minimal 8 karakter"></div>
+            <div class="field"><label for="tanggal-lahir">Tanggal lahir</label><input type="date" id="tanggal-lahir" name="tanggal-lahir"></div>
+            <div class="field"><label for="kode-pos">Kode pos</label><input type="number" id="kode-pos" name="kode-pos" min="0" placeholder="Contoh: 10110"></div>
+            <div class="field"><label for="kota">Kota domisili</label><select id="kota" name="kota"><option value="" selected disabled>Pilih kota</option><option>Jakarta</option><option>Bandung</option><option>Surabaya</option><option>Yogyakarta</option><option>Medan</option><option>Makassar</option></select></div>
+            <div class="field"><span class="field-label">Jenis kelamin</span><div class="choice-row"><label class="choice"><input type="radio" name="jenis-kelamin" value="laki-laki"><span>Laki-laki</span></label><label class="choice"><input type="radio" name="jenis-kelamin" value="perempuan"><span>Perempuan</span></label></div></div>
+            <div class="field field-full"><label for="pesan">Pesan tambahan</label><textarea id="pesan" name="pesan" rows="4" placeholder="Apa yang ingin kamu tanyakan?"></textarea></div>
+          </div>
+        </fieldset>
+        <label class="choice terms-choice"><input type="checkbox" name="persetujuan" required><span>Saya menyetujui <a href="#syarat">syarat dan ketentuan</a> yang berlaku. <b>*</b></span></label>
+        <input class="button button-dark submit-button" type="submit" value="Kirim pesan →">
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">R</span>ruang<span>rona</span></a><p>© 2026 Ruang Rona. Dibuat dengan perhatian.</p><div class="social-links"><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a><a href="https://tiktok.com" target="_blank" rel="noreferrer">TikTok</a></div></footer>
+</body>
+</html>
